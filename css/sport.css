@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+}
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    display: none;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li:hover>div.sport{
+    width: 85%;
+    height: 100%;
+    display: block;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 40px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a,
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b,
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c,
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d {
+    width: 22%;
+    display: inline-block;
+    height: 550px;
+    background-color: white;
+    vertical-align: top;
+}
+
+
+
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 2px;
+    display: inline-block;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li:hover>a{
+    width: 100%;
+    height: 40px;
+    color: red;
+}
+
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 20px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 40px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li:hover>a{
+    color: red;
+}
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li>ul>li{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(109, 106, 106);
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.a>ul>li>ul>li>ul>li:hover>a{
+    color: red;
+}
+
+
+
+
+
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 40px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li:hover>a{
+    color: red;
+}
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li>ul>li{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(109, 106, 106);
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.b>ul>li>ul>li:hover>a{
+    color: red;
+}
+
+
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 40px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li:hover>a{
+    color: red;
+}
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li>ul>li{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(109, 106, 106);
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.c>ul>li>ul>li:hover>a{
+    color: red;
+}
+
+
+
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li{
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 40px;
+    color: black;
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li:hover>a{
+    color: red;
+}
+
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li>ul>li{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration:none ;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(109, 106, 106);
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div.sport>div.d>ul>li>ul>li:hover>a{
+    color: red;
+}

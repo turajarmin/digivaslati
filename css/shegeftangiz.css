@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 2000px;
+  }
+  div.shegeftangiz{
+  
+
+
+  }
+  div.shegeftangiz>img{
+    width: 100%;
+    margin-top: 3px;
+  }
+  div.shegeftangiz>ul{
+    list-style: none;
+  width: inherit;
+  height: inherit;
+  padding-right: 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -150px;
+
+  }
+  div.shegeftangiz>ul>li{
+    width: auto;
+  height: inherit;
+  display: inline-block;
+  text-align: center;
+
+ 
+
+
+
+
+  }
+  div.shegeftangiz>ul>li>a{
+    display: inline-block;
+  width: auto;
+  padding: 0 10px;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+
+
+  
+ 
+
+  }
+  
+
+

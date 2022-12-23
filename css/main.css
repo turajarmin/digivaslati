@@ -1,0 +1,44 @@
+@import "./menu.css";
+@import "./mobile.css";
+@import "./kala.css";
+@import "./car.css";
+@import "./mode.css";
+@import "./market.css";
+@import "./toy.css";
+@import "./mahsoul.css";
+@import "./beauty.css";
+@import "./home.css";
+@import "./book.css";
+@import "./sport.css";
+@import "./images.css";
+@import "./slider.css";
+@import "./shegeftangiz.css";
+@import "./online.css";
+@font-face {
+    font-family: fa;
+    src: url('../font/fa/BYekan+.ttf');
+  }
+
+body{
+    font-family: fa;
+}
+
+::-webkit-scrollbar{
+  background-color: rgb(241, 236, 236);
+  width: 8px;
+
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(184, 182, 182) ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+
+
+
+

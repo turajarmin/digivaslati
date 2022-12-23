@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 2000px;
+}
+
+body>div.ab{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(239, 57, 78);
+    /* margin-right: 92%;
+    margin-bottom: 10%; */
+    right: 92%;
+    bottom: 20px;
+    z-index: 2;
+    position: fixed;
+   
+}
+body>div.ab>label[for="online"]{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+#exit{
+    display: none;
+    position: fixed;
+}
+#online {
+    position: fixed;
+
+}
+
+body>div.online{
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    right: 900px;
+    top: calc(50% - 400px/2);
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    z-index: 5;
+    position: fixed;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+body>div.online>div.cd{
+    width: inherit;
+    height: 50px;
+    background-color:  rgb(239, 57, 78);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+body>div.online>div.cd>p{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    vertical-align: top;
+
+
+}
+body>div.online>div.cd>label[for="exit"]{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-align:center;
+    margin-right: 60px;
+    cursor: pointer;
+}
+body>div.online>div.ef{
+    width: 320px;
+    height: 350px;
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+  overflow: scroll;
+  z-index: 2;
+  position: fixed;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  padding-right: 10px;
+  border: 1px solid rgb(239, 57, 78);
+
+
+}
+
+body>div.online>div.ef>div.gh{
+    width: 290px;
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+
+}
+body>div.online>div.ef>div.gh>p:nth-of-type(1){
+    display: inline-block;
+    width: 220px;
+}
+body>div.online>div.ef>div.gh>p:nth-of-type(2){
+    display: inline-block;
+    width: inherit;
+    padding-right: 250px;
+    font-size: 5px;
+    position: relative;
+    bottom: 40px;
+}
+
+body>div.online>div.ef>div.ij{
+    width: 290px;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+
+}
+body>div.online>div.ef>div.ij>p:nth-of-type(1){
+    display: inline-block;
+    width: 220px;
+}
+body>div.online>div.ef>div.ij>p:nth-of-type(2){
+    display: inline-block;
+    width: inherit;
+    padding-right: 250px;
+    font-size: 5px;
+    position: relative;
+    bottom: 30px;
+}
+body>div.online>div.ef>div.kl{
+    width: 290px;
+    height: 90px;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+}
+body>div.online>div.ef>div.kl>p:nth-of-type(1){
+    display: inline-block;
+    width: 220px;
+}
+body>div.online>div.ef>div.kl>p:nth-of-type(2){
+    display: inline-block;
+    width: inherit;
+    padding-right: 250px;
+    font-size: 5px;
+    position: relative;
+    bottom: 45px;
+}
+
+body>div.online>div.ef>div.mn>p{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+body>div.online>div.ef>div.op{
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    right: calc(50% - 200px/2);
+    background-color: #19BFD3;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+body>div.online>div.ef>div.op>p{
+    display: inline-block;
+    width: inherit;
+    height: 45px;
+    line-height: 45px;
+    right: calc(50% - 200px/2);
+    padding-right: 10px;
+    font-size: 14px;
+    position: relative;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+body>div.online>div.ef>div.op>p>a{
+    display: inline-block;
+    width: 20px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 5px;
+    margin-right: 15px;
+    position: relative;
+}
+
+
+
+
+
+
+#online:checked ~ div.online{
+    left: 0;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+#online:checked ~ div.online>div.cd{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+#online:checked ~ div.online>div.ef{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
+#exit:checked ~ div.online{
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+}
+#exit:checked ~ div.online > div.cd {
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+}
+#exit:checked ~ div.online > div.ef {
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -o-transform: scale(0,0);
+}
+
+
+
